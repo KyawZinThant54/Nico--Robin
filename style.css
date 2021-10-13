@@ -12,6 +12,17 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clear-fix{
+    zoom: 1;
+}
+.clear-fix:after{
+    content:".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 
 /*-------------------------------Reuseable content------------------------------------------------- */   
 .row{
@@ -218,3 +229,59 @@ h3{
     transform: scale(1.03);
     opacity: 1;
 }
+
+/* ------------------- Section -steps--------------------- */
+
+
+
+.steps-box{
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+.steps-box:last-child{
+    padding:3%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 48%;
+}
+
+.work-step{
+    margin-bottom: 50px ;
+}
+
+.work-step div{
+    display: inline-block;  
+    color:red;
+    border: 2px solid red;
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    text-align: center;
+    padding:5px;
+    font-size: 150%;
+    float:left; 
+    margin-right: 25px;
+}
+
+.btn-app img{
+    height:50px;
+    width:auto;
+    margin-right:10px
+    
+}
+
+.work-step:last-of-type{
+    margin-bottom: 120px;
+}
+
+
+
