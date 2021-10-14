@@ -1,5 +1,5 @@
  <h1>nico-robin</h1>
- This site is all about nico robin but ramodon things
+ This site is all about nico robin but random things
  <hr>
  <h1>Demo</h1>
  https://kyawzinthant54.github.io/Nico--Robin/
