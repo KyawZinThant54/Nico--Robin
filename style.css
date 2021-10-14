@@ -232,16 +232,20 @@ h3{
 
 /* ------------------- Section -steps--------------------- */
 
-
+.section-step{
+    background-color: rgb(223, 222, 222);
+}
 
 .steps-box{
     margin-top: 30px;
     overflow: hidden;
+    
 }
 
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
+    
 }
 
 
@@ -270,6 +274,7 @@ h3{
     font-size: 150%;
     float:left; 
     margin-right: 25px;
+    
 }
 
 .btn-app img{
@@ -280,8 +285,45 @@ h3{
 }
 
 .work-step:last-of-type{
-    margin-bottom: 120px;
+    margin-bottom: 110px;
 }
 
+/* --------------------------City Section-------------------------- */
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 15px;
+}
+
+.icon-small{
+    color: violet;
+    display: inline-block;
+    text-align: center;
+    font-size: 120%;
+    width: 30px;
+    line-height:120% ;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.twitter:link,
+.twitter:visited {
+    text-decoration: none;
+    color: #834edd;
+    border-bottom: 1px solid transparent;
+    padding-bottom:5px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.twitter:hover,
+.twitter:active {
+    color:black;
+    border-bottom: 1px solid violet;
+    
+}
 
 
