@@ -63,6 +63,8 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
+
  
 }
 
@@ -324,6 +326,44 @@ h3{
     color:black;
     border-bottom: 1px solid violet;
     
+}
+
+
+/* ---------------------test section--------------------------- */
+.sectionn-testmomi{
+    background-image:linear-gradient(rgba(0,0,0,0.700),rgba(0,0,0,0.700)),url(image/robin.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;  
+}
+
+blockquote{
+    font-style: italic;
+    padding: 2%;
+    line-height: 150%;
+}
+blockquote:before { 
+    content:open-quote;
+    font-size: 400%;
+} 
+blockquote:after { 
+    content:close-quote;
+   color: transparent;
+   height: 0;
+} 
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  
+    vertical-align: middle;
 }
 
 
